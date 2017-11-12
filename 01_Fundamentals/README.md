@@ -1,4 +1,4 @@
-# 1_ Fundamentals
+# 1_ Fundamentals <a id="chapter-01-fundamentals"></a>
 
 
 ## 1_ Matrices & Algebra fundamentals
@@ -63,7 +63,7 @@ In SQL language, a natural junction between two tables will be done if :
     * INT (integer)
     * FLOAT (floating point numeric data)
     * VARCHAR (long character chain)
-    
+
 #### mySQL request
 
         SELECT <COLUMNS>
@@ -96,7 +96,7 @@ The FULL OUTER JOIN keyword return all records when there is a match in either l
 
       SELECT column_name(s)
       FROM table1
-      FULL OUTER JOIN table2 ON table1.column_name = table2.column_name; 
+      FULL OUTER JOIN table2 ON table1.column_name = table2.column_name;
 
 ![outer-join-image](https://www.w3schools.com/sql/img_fulljoin.gif)
 
@@ -126,7 +126,7 @@ The RIGHT JOIN keyword returns all records from the right table (table2), and th
 ## 5_ CAP theorem
 
 It is impossible for a distributed data store to simultaneously provide more than two out of the following three guarantees:
- 
+
 * Every read receives the most recent write or an error.
 * Every request receives a (non-error) response – without guarantee that it contains the most recent write.
 * The system continues to operate despite an arbitrary number of messages being dropped (or delayed) by the network between nodes.
@@ -159,7 +159,7 @@ A series is a series of data points ordered.
 
 ## 10_ OLAP
 
-Online analytical processing, or OLAP, is an approach to answering multi-dimensional analytical (MDA) queries swiftly in computing. 
+Online analytical processing, or OLAP, is an approach to answering multi-dimensional analytical (MDA) queries swiftly in computing.
 
 OLAP is part of the __broader category of business intelligence__, which also encompasses relational database, report writing and data mining. Typical applications of OLAP include ___business reporting for sales, marketing, management reporting, business process management (BPM), budgeting and forecasting, financial reporting and similar areas, with new applications coming up, such as agriculture__.
 
@@ -176,7 +176,7 @@ The term OLAP was created as a slight modification of the traditional database t
 ### JSON
 
 JSON is a language-independent data format. Example describing a person:
-	
+
 	{
 	  "firstName": "John",
 	  "lastName": "Smith",
@@ -209,7 +209,7 @@ JSON is a language-independent data format. Example describing a person:
 ## XML
 
 Extensible Markup Language (XML) is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable.
- 
+
  	<CATALOG>
 	  <PLANT>
 	    <COMMON>Bloodroot</COMMON>
@@ -267,5 +267,3 @@ To use them in [Python](https://docs.python.org/3/library/re.html), just import:
 ## 17_ Vendor landscape
 
 ## 18_ Env Setup
-
-
